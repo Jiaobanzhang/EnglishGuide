@@ -1,0 +1,12 @@
+body {
+  @media (min-width: 1440px) {
+    font-size: 16px;
+  }
+}
+
+#markdown-content img,
+.vp-content img,
+.theme-hope-content img {
+  max-width: 100%;
+  height: auto;
+}

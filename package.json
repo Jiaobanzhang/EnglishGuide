@@ -1,0 +1,28 @@
+{
+  "name": "english-guide",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Markdown-powered documentation site built with VuePress.",
+  "license": "MIT",
+  "packageManager": "pnpm@10.0.0",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "build:clean": "rm -rf docs/.vuepress/.temp docs/.vuepress/.cache docs/.vuepress/dist && pnpm build",
+    "lint:md": "markdownlint-cli2 '**/*.md'",
+    "lint:prettier": "prettier --check .",
+    "lint": "pnpm lint:prettier && pnpm lint:md"
+  },
+  "dependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.28",
+    "@vuepress/helper": "2.0.0-rc.128",
+    "@vuepress/plugin-feed": "2.0.0-rc.128",
+    "husky": "9.1.7",
+    "markdownlint-cli2": "0.17.1",
+    "prettier": "3.4.2",
+    "sass-embedded": "1.99.0",
+    "vue": "^3.5.32",
+    "vuepress": "2.0.0-rc.28",
+    "vuepress-theme-hope": "2.0.0-rc.106"
+  }
+}
