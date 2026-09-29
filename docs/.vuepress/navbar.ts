@@ -2,8 +2,7 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   { text: "Home", link: "/" },
-  { text: "Getting Started", link: "/getting-started/" },
-  { text: "Core Topics", link: "/core-topics/" },
-  { text: "Guides", link: "/guides/" },
-  { text: "Reference", link: "/reference/" },
+  { text: "校内英语", link: "/school-english/" },
+  { text: "剑桥英语", link: "/cambridge-english/" },
+  { text: "高阶考试", link: "/advanced-exams/" },
 ]);
